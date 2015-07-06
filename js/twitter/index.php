@@ -1,10 +1,10 @@
 <?php
 
 // MODIFY THESE CONFIGS
-define('CONSUMER_KEY', 'zTJXZ6gupLallGRacxzsjDd1L');
-define('CONSUMER_SECRET', 'x2YRWRCL4rsyuN531dt6UU4NVi5M6wjhqzdXcyfskM1EYbMlFS');
-define('ACCESS_TOKEN', '18431686-wYsJ4VnIDRH5L11SNNVSi9KSBImp1Iec5DrfboSVV');
-define('ACCESS_SECRET', 'f7uXFOGOKSC7xUSxf1SovlnmBU3NlzfXyA5CJyD496Xz8');
+define('CONSUMER_KEY', '4mqWpypxkWhIyP1q0RfZ8Oy7U');
+define('CONSUMER_SECRET', 'lVYrHR8njnF5wr5IjScDwfMvyfp9yXClZlWZxQ4mLti74f886f');
+define('ACCESS_TOKEN', '478324857-w36FHNXPtwJkZMVIiOuIKoyX6zsxvROt68xlIbS6');
+define('ACCESS_SECRET', 'jslqGzFcJlL0ElIdhvgkX1JDtUt63SFSbGkxZJU794uhZ');
 
 //--------------------------------------------
 
