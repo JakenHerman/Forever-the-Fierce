@@ -1,21 +1,21 @@
 <?php
 
 // MODIFY THESE CONFIGS
-define('CONSUMER_KEY', 'zTJXZ6gupLallGRacxzsjDd1L');
-define('CONSUMER_SECRET', 'x2YRWRCL4rsyuN531dt6UU4NVi5M6wjhqzdXcyfskM1EYbMlFS');
-define('ACCESS_TOKEN', '18431686-wYsJ4VnIDRH5L11SNNVSi9KSBImp1Iec5DrfboSVV');
-define('ACCESS_SECRET', 'f7uXFOGOKSC7xUSxf1SovlnmBU3NlzfXyA5CJyD496Xz8');
+define('CONSUMER_KEY', '');
+define('CONSUMER_SECRET', '');
+define('ACCESS_TOKEN', '');
+define('ACCESS_SECRET', '');
 
 //--------------------------------------------
 
 
-if(empty($_POST) || CONSUMER_KEY == '' || CONSUMER_SECRET == '' || ACCESS_TOKEN == '' || ACCESS_SECRET == '') {
+if(empty($_POST) || CONSUMER_KEY == '' || CONSUMER_SECRET == '' || ACCESS_TOKEN == '' || ACCESS_SECRET == '') { 
 	die(json_encode(
 		array(
 			'response' => false,
 			'message' => false
 		)
-	));
+	)); 
 }
 
 class ezTweet {
